@@ -1,0 +1,8 @@
+function getFirstElement(arr){
+    return arr[0]
+}
+
+const number = [1,2,3];
+const word = ["apple","banana","cherry"]
+console.log(`First number: ${getFirstElement(numbers)}`);
+console.log(`First word: ${getFirstElement(words)}`);
